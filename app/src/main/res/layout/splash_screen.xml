@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/LogoImage"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:src="@drawable/logo"
+        android:layout_above="@+id/ProgressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp" />
+
+   <!-- <ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@layout/progress"
+        android:layout_below="@+id/LogoImage"
+        android:layout_centerHorizontal="true">
+    </ProgressBar>-->
+
+    <!--<ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@layout/progress"
+        android:layout_below="@+id/LogoImage"
+        android:layout_centerHorizontal="true">
+    </ProgressBar>-->
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:background="@layout/progress"
+        android:layout_marginBottom="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+    </ProgressBar>
+
+</RelativeLayout>

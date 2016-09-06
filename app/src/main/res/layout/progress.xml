@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:pivotX="50%" android:pivotY="50%" android:fromDegrees="0"
+    android:toDegrees="360"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <shape android:shape="ring" android:innerRadiusRatio="3"
+        android:thicknessRatio="8" android:useLevel="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <size android:width="76dip" android:height="76dip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <gradient android:type="sweep" android:useLevel="false"
+            android:startColor="#1a1aff"
+            android:endColor="#1a1aff"
+            android:angle="0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </shape>
+</rotate> 

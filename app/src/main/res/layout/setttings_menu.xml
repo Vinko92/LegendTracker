@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Settings"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:text="ON/OFF GPS"
+        android:id="@+id/btnOnOffGps"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:layout_weight="0.07" />
+
+    <Button
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:text="SET DEFAULT LOCATION"
+        android:id="@+id/btnMarkers"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:layout_weight="0.07" />
+
+    <Button
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:text="CHANGE YOUR EMAIL ADDRESS"
+        android:id="@+id/btnGoOnline"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20px"
+        android:layout_weight="0.07" />
+
+</LinearLayout>
